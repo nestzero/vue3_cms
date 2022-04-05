@@ -1,5 +1,4 @@
-import { createRouter, createWebHashHistory } from 'vue-router'
-import type { RouteRecordRaw } from 'vue-router'
+import { createRouter, createWebHashHistory, RouteRecordRaw } from 'vue-router'
 
 
 const routes: RouteRecordRaw[] = [
@@ -9,7 +8,7 @@ const routes: RouteRecordRaw[] = [
   },
   {
     path: '/home',
-    component: () => import('@/views/home/Home.vue')
+    component: () => ("@/views/home/Home")
   }
 ]
 
